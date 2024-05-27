@@ -1,0 +1,40 @@
+body
+{
+	background-color:yellow;/*indique la couleur de fond de la page web*/
+}
+
+p, h1, h2
+{
+	font-family: Arial;/*Cette police de caractère sera appliquée aux trois balises*/
+}
+
+
+p, p
+{
+	font-size:medium; /*Indique la taille des caractères dans les paragraphes*/
+	text-align: justify;/*Indique le type d'alignement du texte dans les paragraphes*/
+}
+
+h1
+{
+	font-size: x-large;
+	color: blue;
+}
+
+h2
+{
+	font-size: large;
+	color: blue;
+	
+}
+center {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+container {
+	display: flex;
+	justify-content: space-between;
+}
+container img {
+	width: 45%;
